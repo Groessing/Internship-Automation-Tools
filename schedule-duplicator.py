@@ -40,7 +40,7 @@ if driver:
 
 
 
-# It sends an error message to Florian Bolka
+# It sends an error message
 def send_error_message(error_message):
     with open("gmail.json") as g:
         app_password = g.read().strip()
